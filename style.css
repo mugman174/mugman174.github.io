@@ -1,0 +1,23 @@
+/*
+  ___ ___ ___ 
+ / __/ __/ __|
+| (__\__ \__ \
+ \___|___/___/
+Welcome to my CSS file.
+Make a PR on the Github for this website if you have any suggestions/fixes for this CSS. [mugman174/mugman174.github.io]
+*/
+
+body {
+	font-family: monospace;
+	color: grey;
+	background-color: black;
+}
+
+.banner {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #0d39a1;
+	color: #dddddd;
+	text-align: center;
+	font-family: "IBM Plex Sans", "Courier New", Helvetica, Arial, sans-serif, monospace ;
+}
