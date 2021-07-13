@@ -21,13 +21,22 @@ body {
 	text-align: center;
 	font-family: "IBM Plex Sans", "Courier New", Helvetica, Arial, sans-serif, monospace ;
 }
+#shadowBox {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Black w/opacity/see-through */
+    border: 3px solid;
+}
 
 .rainbow {
     text-align: center;
     text-decoration: underline;
+    font-size: 32px;
     font-family: monospace;
+    letter-spacing: 5px;
 }
-.rainbow_anim {
+.rainbow_text_animated {
     background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
     -webkit-background-clip: text;
     background-clip: text;
