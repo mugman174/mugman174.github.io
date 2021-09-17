@@ -9,10 +9,10 @@ Make a PR on the Github for this website if you have any suggestions/fixes for t
 
 body {
 	font-family: monospace;
-	color: grey;
+	color: #D3D3D3;
 	background-color: black;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 .banner {
 	padding-top: 25px;
 	padding-bottom: 25px;
