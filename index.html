@@ -1,55 +1,20 @@
-<!DOCTYPE HTML>
-<html lang="en_GB">
-<!--
- _   _ _____ __  __ _     
-| | | |_   _|  \/  | |    
-| |_| | | | | |\/| | |    
-|  _  | | | | |  | | |___ 
-|_| |_| |_| |_|  |_|_____|
-   
-Hello, people looking at this HTML.                       
--->
-	<head>
-		<meta charset="UTF-8">
-		<title>200 | Page Found</title>
-		<link rel="stylesheet" type="text/css" href="/style.css" />
-
-		<meta content="mugman" property="og:title" />
-		<meta content="A website with no purpose." property="og:description" />
-		<script>
-		/* Random script to do random things with cookies */
-		function chk() {
-			if(document.cookie === "clicked=true") {
-				document.getElementById("cookie").style.display = "none"
-			}
-		}
-		function clk() {
-			document.cookie="clicked=true";
-			document.getElementById("cookie").style.display = "none"
-		}
-		console.log("%cJavaScript", "color: black; font-family: sans-serif; font-size: 4.5em; font-weight: bolder; text-shadow: #000 1px 1px;");
-		</script>
-	</head>
-	<body onload="chk()">
-		<!--3 spaces between item-->
-		<header><a href="/">🏠</a>   <a href="/stuff">[Stuff]</a></header>
-		<div class="banner">
-			<h1 contentEditable="true">Hello World</h1>
-			<h4>Welcome to <code>mugman#5453</code>'s website.</h4>
-		</div>
-		<div class="content">
-			<button onclick="clk()" id="cookie" style="border: 0; background: 'black'">Click for Cookie</button>
-			<center>
-				<div>
-					<a class="rainbow rainbow_anim" href="/stuff/">Stuff</a>
-					<br/>
-					<a class="rainbow rainbow_anim" href="/break/">Browser Stuff</a>
-				</div>
-			</center>
-		</div>
-	</body>
-	<hr/>
-	<footer>
-		<small>If you are visiting this page on a CLI-based browser, please visit <a href="/cli.html">/cli.html</a> for a cleaner and less bloated experience.</small>
-	</footer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Home</title>
+</head>
+<body>
+	<header class="announce">This site is still WIP. <a onclick="this.parentElement.parentNode.removeChild(this.parentElement);false">[X]</a></header>
+	<header class="topbar"><ul><li><a href="/">Home</a></li><li><a href="/genericlinux.org">Generic Linux</a></li></header>
+	<div id="cover">
+		<h1>Homepage</h1>
+	</div>
+	<div>
+		Hello.
+	</div>
+</body>
 </html>
