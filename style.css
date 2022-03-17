@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .announce {
 	background-color: #FFF200;
 	color: black;
