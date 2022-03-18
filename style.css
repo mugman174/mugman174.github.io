@@ -26,3 +26,11 @@ body {
 .topbar ul li:hover {
 	background-color: black;
 }
+
+a {
+	color: #7BC4FD;
+}
+
+a:hover {
+	color: #6BA6FD;
+}
