@@ -34,3 +34,26 @@ a {
 a:hover {
 	color: #6BA6FD;
 }
+
+.box {
+  border-radius: 25px;
+  background: black;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.cover {
+	border-radius: 25px;
+	padding: 15px;
+	display: flow;
+}
+
+.right {
+	margin-left: auto; 
+	margin-right: 0;
+}
