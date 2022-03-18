@@ -5,10 +5,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
+	<script>
+	if(document.cookie === 'clicked=true') {document.getElementById("announce").parentNode.removeChild(document.getElementById("announce"))}
+	</script>
 	<title>Home</title>
 </head>
 <body>
-	<header class="announce">This site is still WIP. <a onclick="this.parentElement.parentNode.removeChild(this.parentElement);false">[X]</a></header>
+	<header class="announce">This site is still WIP. <a onclick="this.parentElement.parentNode.removeChild(this.parentElement);document.cookie='clicked=true';false">[X]</a></header>
 	<header class="topbar"><ul><li><a href="/">Home</a></li><li><a href="/codeprojects-for-website">Code Project Things</a></li><li><a href="/genericlinux.org">Generic Linux</a></li><li><a href="https://mugman.tilde.cafe">Website on tilde.cafe</a></li></ul></header>
 	<div id="cover">
 		<h1>Homepage</h1>
