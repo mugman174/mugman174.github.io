@@ -16,8 +16,9 @@ body {
 
 .topbar {
 	padding-left: 0px;
-	background-color:  #343434;
+	background-color: #343434;
 }
+
 .topbar ul li {
 	display: inline-block;
 	padding: 10px 20px;
@@ -36,15 +37,15 @@ a:hover {
 }
 
 .box {
-  border-radius: 25px;
-  background: black;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
+	border-radius: 25px;
+	background: black;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
 }
 
 .flexbox {
-  display: flex;
+	display: flex;
 }
 
 .cover {
@@ -54,14 +55,14 @@ a:hover {
 }
 
 .right {
-	margin-left: auto; 
+	margin-left: auto;
 	margin-right: 0;
 }
 
 .discordlogo {
 	background: url('/contact/discord.png') no-repeat;
 	background-size: 28px;
-	display: block;	
+	display: block;
 	padding-left: 38px;
 	text-align: top;
 	font-size: 20px
