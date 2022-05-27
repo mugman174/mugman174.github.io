@@ -1,0 +1,15 @@
+h1 {
+    font-size: 100px;
+    top: 5%;
+    left: 50%;
+    position: absolute;
+}
+
+#particles-js {
+    width: 100%;
+    height: max-content;
+}
+
+.spacing {
+    padding: 50%;
+}
