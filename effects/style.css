@@ -13,3 +13,8 @@ h1 {
 .spacing {
     padding: 50%;
 }
+
+body {
+    background-color: midnightblue;
+    color: lightblue;
+}
