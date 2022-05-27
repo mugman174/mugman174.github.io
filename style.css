@@ -69,7 +69,12 @@ a:hover {
 	text-align: top;
 	font-size: 20px
 }
-
+.emailogo {
+	background-size: 28px;
+	display: block;
+	text-align: top;
+	font-size: 20px
+}
 .discordbox {
 	background-color: #5865F2
 }
