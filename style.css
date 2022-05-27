@@ -27,7 +27,9 @@ body {
 .topbar ul li:hover {
 	background-color: black;
 }
-
+.topbar ul li a {
+	text-decoration: none;
+}
 a {
 	color: #7BC4FD;
 }
